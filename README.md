@@ -1,2 +1,1 @@
-#OraclePractice
 # DemetriEdgar.github.io
