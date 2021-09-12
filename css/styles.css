@@ -7412,6 +7412,10 @@ textarea.form-control-lg {
 .m-0 {
   margin: 0 !important;
 }
+.m-0-projects{
+  margin: 0 !important;
+  
+}
 
 .m-1 {
   margin: 0.25rem !important;
@@ -11532,7 +11536,7 @@ p.lead {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: calc(1.475rem + 0.7vw);
   color: #6C757D;
 }
 
@@ -11601,14 +11605,19 @@ p.lead {
   text-align:left;
   align-items: center;
   /* justify-content:; */
-  width: 25%;
+  width: 100%;
   float: left;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: calc(1rem + 0.2vw);
   height: 3rem;
   font-weight: 700;
+  padding-left: 1.5%;
   font-family: 'Nanum Gothic', sans-serif;
   /* padding-right: 20rem; */
   -webkit-text-size-adjust: 100%;
+  max-width: 14rem;
+  margin-bottom: 1rem;
+  /* margin: auto; */
   /* padding: 0rem 10% 0rem 0px; */
 }
 .icons-just-text{
@@ -11619,11 +11628,15 @@ p.lead {
   float: left;
   font-size: 1.3rem;
   height: 3rem;
-  width: 25%;
-  
+  width: 100%;
+  max-width: 14rem;
   font-weight: 700;
   font-family: 'Nanum Gothic', sans-serif;
   -webkit-text-size-adjust: 100%;
+
+  padding-left: 1.5%;
+  max-width: 14rem;
+  margin-bottom: 1rem;
   
 }
 
@@ -11638,12 +11651,14 @@ p.lead {
 .home-subtitle-text{
     color: #343A40;
     display: flex;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content:last baseline;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: calc(1rem + 0.5vw);
+    
     font-family: 'Do Hyeon', sans-serif;
     margin-bottom: 10rem;
 }
@@ -11717,6 +11732,7 @@ p.lead {
   margin-right: 1.5rem;
   float:left;
   background-color: #0A3987;
+  margin: auto;
   /*아이콘 내 그림 컨트롤*/
   
 }
@@ -11772,8 +11788,10 @@ p.lead {
   color: #ffffff;
   
   font-size: 3rem;
-  margin-right: 1.5rem;
-  margin-bottom: 1rem;
+  /* margin-right: 1.5rem;
+  margin-bottom: 1rem; */
+  margin: auto;
+  margin-right: 0.5%;
   /* margin-bottom: 1.5rem; */
   background-color: #0A3987;
   /*아이콘 내 그림 컨트롤*/
@@ -11909,7 +11927,8 @@ p.lead {
   background-color: #0A3987;
 }
 #projects .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: calc(0.8rem + 0.5vw);
   /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 700;
@@ -11922,7 +11941,8 @@ p.lead {
   color: #ffffffc9;
   font-style: italic;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
+  font-size: calc(0.6rem + 0.5vw);
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   
 }
@@ -11938,7 +11958,8 @@ p.lead {
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: calc(1.625rem + 1.23vw);
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
@@ -11977,12 +11998,21 @@ p.lead {
 
 /*프로젝트 부분 끝*/
 
+/*유튜브 태그 비율*/
+.video-wrap {
+  position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;
+}
+.video-wrap iframe, .video-wrap object, .video-wrap embed{
+  position:absolute; top:0; left:0; width:100%; height:100%;
+}
+
 /*섹션 부분*/
 .page-section {
   /* display: flex; */
   align-items: center;
   padding-left: 3rem;
-  padding-right: 15rem;
+  /* padding-right: 3%; */
+  padding-right: 3%;
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 100%;
@@ -12046,12 +12076,14 @@ section.resume-section {
 
 
 
-#about{
+#home{
   background-image:url("/assets/img/main1.png");
   background-repeat: no-repeat;
   
   background-size:cover;
-  max-height: 100%;
+  
+  height: 100vh;
+  padding-bottom: 0%;
   /* width: 100%;
   height: 100%; */
   /* z-index: -1; */
@@ -12063,6 +12095,7 @@ section.resume-section {
 
 section.resume-section .resume-section-content {
   width: 100%;
+  /* height: 100%; */
   
   
 }
