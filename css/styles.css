@@ -571,6 +571,12 @@ progress {
   list-style: none;
 }
 
+.list-inline-2 {
+  padding-left: 0;
+  list-style: none;
+  padding-right: 10%;
+}
+
 .list-inline-item {
   display: inline-block;
 }
@@ -11849,7 +11855,7 @@ p.lead {
     font-size: calc(1rem + 0.5vw);
     
     font-family: 'Do Hyeon', sans-serif;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
 }
 .title-text{
   display: flex;
@@ -12022,8 +12028,9 @@ p.lead {
 /*skills 부분*/
 .list-img{
   display: inline-block;
-  
-  width: 13rem;
+  /* font-size: calc(1rem + 0.5vw); */
+  /* width: 13rem; */
+  width: calc(5rem + 7vw);
   height: 8rem;
   overflow: hidden;
   object-fit:scale-down;
