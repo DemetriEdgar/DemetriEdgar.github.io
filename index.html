@@ -12,6 +12,8 @@
         
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -21,6 +23,11 @@
         
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+
+
+        <!-- aos 부분-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         
         <!--추가 폰트-->
@@ -43,6 +50,9 @@
         
     </head>
     <body id="page-top">
+        <script> 
+            AOS.init({once: true}); 
+        </script>
         
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -84,14 +94,23 @@
             
             <section class="resume-section" id="home">
                 <div class="resume-section-content">
-                    
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000">
                     <h1 class="home-title-text">
                         Web Developer<br>
                         <span class="text-primary">Junho Yun</span>
                     </h1>
-                    <div class="home-subtitle-text">
-                        안녕하세요. 웹 개발자를 꿈꾸는 윤준호입니다.
                     </div>
+                    
+                    <div data-aos="fade-right" 
+                    data-aos-delay="200"
+                    data-aos-duration="1000">
+                        <div class="home-subtitle-text">
+                            안녕하세요. 웹 개발자를 꿈꾸는 윤준호입니다.
+                        </div>
+                    </div>
+                    
+                    
                     
 
                     
@@ -113,56 +132,60 @@
             <!-- About Me -->
             <article class="AboutMe_AboutMe__1TCRF" id="about" style="padding-right: 5%;">
                 <div class="resume-section-content">
-                    <!-- <div class="SectionTitle_SectionTitle__3f_lU"> -->
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000" data-aos-easing="ease">
                         <h2 class="mb-5">ABOUT ME</h2>
-                    <!-- </div> -->
+                    </div>
                     
+                    
+
                     <div class="AboutMe_content__2uEf5" >
-                    
-                    
-                    
-                        <div class="AboutMe_basic-infos__36Rb0">
-                            <div class="AboutMe_basic-info-wrapper__3E-0e">
-                                <div class="AboutMe_basic-info__3sjma">
-                                    <div class="social-icons">
-                                        <a class="social-icon"><i class="fas fa-user-alt"></i></a>
-                                    </div>
+                        <div data-aos="fade-up"  data-aos-duration="1000">
+                            <div class="AboutMe_basic-infos__36Rb0">
+                                <div class="AboutMe_basic-info-wrapper__3E-0e">
+                                    <div class="AboutMe_basic-info__3sjma">
+                                        <div class="social-icons">
+                                            <a class="social-icon"><i class="fas fa-user-alt"></i></a>
+                                        </div>
+                                        
                                     
-                                
-                                    <div class="icons-text">이름<br>윤 준 호</div>
+                                        <div class="icons-text">이름<br>윤 준 호</div>
+                                    </div>
+                                </div>
+    
+                                <div class="AboutMe_basic-info-wrapper__3E-0e">
+                                    <div class="AboutMe_basic-info__3sjma">
+                                        <div class="social-icons">
+                                            <a class="social-icon"><i class="fas fa-birthday-cake"></i></a>
+                                        </div>
+                                        
+                                    <div class="icons-text">생년월일<br>1993-03-26</div>
+                                    </div>
+                                </div>
+    
+                                <div class="AboutMe_basic-info-wrapper__3E-0e">
+                                    <div class="AboutMe_basic-info__3sjma">
+                                        <div class="social-icons">
+                                            <a class="social-icon"><i class="fas fa-map-marker-alt"></i></a>
+                                        </div>
+                                        
+                                    <div class="icons-text">거주지<br>경기도 파주시 운정</div>
+                                    </div>
+                                </div>
+    
+                                <div class="AboutMe_basic-info-wrapper__3E-0e">
+                                    <div class="AboutMe_basic-info__3sjma">
+                                        <div class="social-icons">
+                                            <a class="social-icon"><i class="fas fa-user-graduate"></i></a>
+                                        </div>
+                                        
+                                    <div class="icons-text">최종학력<br>학사 (정보보호학과)</div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="AboutMe_basic-info-wrapper__3E-0e">
-                                <div class="AboutMe_basic-info__3sjma">
-                                    <div class="social-icons">
-                                        <a class="social-icon"><i class="fas fa-birthday-cake"></i></a>
-                                    </div>
-                                    
-                                <div class="icons-text">생년월일<br>1993-03-26</div>
-                                </div>
-                            </div>
-
-                            <div class="AboutMe_basic-info-wrapper__3E-0e">
-                                <div class="AboutMe_basic-info__3sjma">
-                                    <div class="social-icons">
-                                        <a class="social-icon"><i class="fas fa-map-marker-alt"></i></a>
-                                    </div>
-                                    
-                                <div class="icons-text">거주지<br>경기도 파주시 운정</div>
-                                </div>
-                            </div>
-
-                            <div class="AboutMe_basic-info-wrapper__3E-0e">
-                                <div class="AboutMe_basic-info__3sjma">
-                                    <div class="social-icons">
-                                        <a class="social-icon"><i class="fas fa-user-graduate"></i></a>
-                                    </div>
-                                    
-                                <div class="icons-text">최종학력<br>학사 (정보보호학과)</div>
-                                </div>
-                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </article>
@@ -207,24 +230,39 @@
              <!-- Skills-->
              <section class="page-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <br>
-                    <ul class="list-inline">
-                        <img class="list-img" src="assets/img/java.png">
-                        <img class="list-img" src="assets/img/oracle.png">
-                        <img class="list-img" src="assets/img/spring.png">
-                        <img class="list-img" src="assets/img/python.png">
-                        <img class="list-img" src="assets/img/html5.png">
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000">
+                        <h2 class="mb-5">Skills</h2>
                         
-                    </ul>
-                    <ul class="list-inline">
-                        <img class="list-img" src="assets/img/css3.png">
-                        <img class="list-img" src="assets/img/js.png">
-                        <img class="list-img" src="assets/img/jquery.png">
-                        <img class="list-img" src="assets/img/nodejs.png">
-                        <img class="list-img" src="assets/img/android.png">
-                    </ul>
+                    </div>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000" data-aos-delay="100">
+                        <div class="subheading mb-3">Programming Languages & Tools</div>
+                    </div>
+                    
+                    
+                    <br>
+                    <div data-aos="zoom-out" 
+                    data-aos-duration="1000" data-aos-delay="200">
+                        <ul class="list-inline-2">
+                            <img class="list-img" src="assets/img/java.png">
+                            <img class="list-img" src="assets/img/oracle.png">
+                            <img class="list-img" src="assets/img/spring.png">
+                            <img class="list-img" src="assets/img/python.png">
+                            <img class="list-img" src="assets/img/html5.png">
+
+                            <img class="list-img" src="assets/img/css3.png">
+                            <img class="list-img" src="assets/img/js.png">
+                            <img class="list-img" src="assets/img/jquery.png">
+                            <img class="list-img" src="assets/img/nodejs.png">
+                            <img class="list-img" src="assets/img/android.png">
+                            
+                        </ul>
+                    </div>
+                    
+                    <!-- <ul class="list-inline">
+                        
+                    </ul> -->
 
                     <!-- <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
@@ -253,131 +291,147 @@
             <!-- Projects-->
             <section class="page-section" id="projects" style="padding-right: 15%;">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects/ 현재 추가중입니다.</h2>
-                    <h3 class="subheading mb-4">Personal Projects<hr class="m-0" /></h3>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000">
+                        <h2 class="mb-5">Projects/ 현재 추가중입니다.</h2>
+                    </div>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000" data-aos-delay="100">
+                        <h3 class="subheading mb-4">Personal Projects<hr class="m-0" /></h3>
+                    </div>
                     
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="portfolio-item">
-                                <!-- 누르면 링크로 바로 가게끔 한다. -->
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    <div data-aos="zoom-in" 
+                    data-aos-duration="1000" data-aos-delay="100">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="portfolio-item">
+                                    <!-- 누르면 링크로 바로 가게끔 한다. -->
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">키오스크/회원관리 앱</div>
+                                        <div class="portfolio-caption-subheading">(진행중)</div>
                                     </div>
-                                    <img class="img-fluid" src="" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">키오스크/회원관리 앱</div>
-                                    <div class="portfolio-caption-subheading">(진행중)</div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <div class="portfolio-item">
-                                <!-- 누르면 링크로 바로 가게끔 한다. -->
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal6">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <div class="portfolio-item">
+                                    <!-- 누르면 링크로 바로 가게끔 한다. -->
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal6">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/portfolio.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">포트폴리오 반응형 웹</div>
+                                        <div class="portfolio-caption-subheading">(진행중)</div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/projects/portfolio.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">포트폴리오 반응형 웹</div>
-                                    <div class="portfolio-caption-subheading">(진행중)</div>
                                 </div>
                             </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal5">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal5">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/fender_brandWeb.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">브랜드 웹페이지</div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/projects/fender_brandWeb.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">브랜드 웹페이지</div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal4">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal4">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/haksa.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">학사관리 및 도서 대여 명부 <br>프로그램</div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/projects/haksa.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">학사관리 및 도서 대여 명부 <br>프로그램</div>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal3">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/projects/movieMWeb.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">영화소개 모바일 웹</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal2">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/projects/netflix.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">넷플릭스 웹</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal1">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/img/projects/simpleWeb.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">반응형 웹</div>
-                                </div>
-                            </div>
-                        </div>
 
 
-
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal3">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/movieMWeb.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">영화소개 모바일 웹</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal2">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/netflix.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">넷플릭스 웹</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#projectModal1">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/simpleWeb.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">반응형 웹</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
+                    
                     <!-- 개인 프로젝트 끝 --------------------------------->
+
                     <br>
-                    <h3 class="subheading mb-4">Team Projects<hr class="m-0" /></h3>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#teamProjectModal1">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000">
+                        <h3 class="subheading mb-4">Team Projects<hr class="m-0" /></h3>
+                    </div>
+                    <div data-aos="zoom-in" 
+                    data-aos-duration="1000" data-aos-delay="100">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-item">
+                                    <a class="portfolio-link" data-bs-toggle="modal" href="#teamProjectModal1">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                        </div>
+                                        <img class="img-fluid" src="assets/img/projects/avanFor/avanFor.PNG" alt="" />
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">AVANFOR/아픈 반려견을 위한 일정관리</div>
                                     </div>
-                                    <img class="img-fluid" src="assets/img/projects/avanFor/avanFor.PNG" alt="" />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">AVANFOR/아픈 반려견을 위한 일정관리</div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
             <hr class="m-0" />
@@ -386,34 +440,41 @@
             <!-- Awards-->
             <section class="page-section" id="awards">
                 <div class="resume-section-content" style="padding-right: 15%;">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000">
+                        <h2 class="mb-5">Awards & Certifications</h2>
+                    </div>
                     
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate"></i></span>
-                            자바와 파이썬 기반 빅데이터&인공지능 활용 응용SW 개발자 양성 과정 - TIS 정보기술교육센터 2021.03 - 2021.09
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate"></i></span>
-                            정보처리기사 - 한국산업인력공단 2021.08
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate"></i></span>
-                            침해사고대응전문가 2급 - 사이버보안평가기술원 2019.10
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate"></i></span>
-                            윈도우포렌식전문가 2급 - 한국산업보안포럼 2019.09
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-certificate"></i></span>
-                            e-Test Professionals 마스터 1급 - (사)한국창의인성교육연구원 2017.11
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            대학생 작품경진대회 동상 - 대한전기학회 산업전기위원회 2018.11
-                        </li>
-                    </ul>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000" data-aos-delay="100">
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <span class="fa-li"><i class="fas fa-certificate"></i></span>
+                                자바와 파이썬 기반 빅데이터&인공지능 활용 응용SW 개발자 양성 과정 - TIS 정보기술교육센터 2021.03 - 2021.09
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-certificate"></i></span>
+                                정보처리기사 - 한국산업인력공단 2021.08
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-certificate"></i></span>
+                                침해사고대응전문가 2급 - 사이버보안평가기술원 2019.10
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-certificate"></i></span>
+                                윈도우포렌식전문가 2급 - 한국산업보안포럼 2019.09
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-certificate"></i></span>
+                                e-Test Professionals 마스터 1급 - (사)한국창의인성교육연구원 2017.11
+                            </li>
+                            <li>
+                                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                                대학생 작품경진대회 동상 - 대한전기학회 산업전기위원회 2018.11
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </section>
             <hr class="m-0" />
@@ -425,35 +486,42 @@
 
             <article class="AboutMe_AboutMe__1TCRF" id="contact" >
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Contact</h2>
-                    <div class="AboutMe_content__2uEf5" >
-                        
-                        <div class="AboutMe_basic-infos__36Rb0-2">
-                            <div class="AboutMe_basic-info-wrapper__3E-0e-2">
-                                <div class="AboutMe_basic-info__3sjma-2">
-                                    <div class="social-icons">
-                                        <a class="social-icon"><i class="fas fa-phone"></i></a>
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000">
+                        <h2 class="mb-5">Contact</h2>
+                    </div>
+                    
+                    <div data-aos="fade-right" 
+                    data-aos-duration="1000" data-aos-delay="100">
+                        <div class="AboutMe_content__2uEf5" >
+                            <div class="AboutMe_basic-infos__36Rb0-2">
+                                <div class="AboutMe_basic-info-wrapper__3E-0e-2">
+                                    <div class="AboutMe_basic-info__3sjma-2">
+                                        <div class="social-icons">
+                                            <a class="social-icon"><i class="fas fa-phone"></i></a>
+                                        </div>
+        
+                                        <div class="icons-just-text">010-5091-1441</div>
                                     </div>
-    
-                                    <div class="icons-just-text">010-5091-1441</div>
+                                    
                                 </div>
-                                
-                            </div>
 
-                            <div class="AboutMe_basic-info-wrapper__3E-0e-2">
-                                <div class="AboutMe_basic-info__3sjma-2">
-                                    <div class="social-icons">
-                                        <a class="social-icon"><i class="fas fa-envelope"></i></a>
+                                <div class="AboutMe_basic-info-wrapper__3E-0e-2">
+                                    <div class="AboutMe_basic-info__3sjma-2">
+                                        <div class="social-icons">
+                                            <a class="social-icon"><i class="fas fa-envelope"></i></a>
+                                        </div>
+        
+                                        <div class="icons-just-text">
+                                            <a href="mailto:bann5091@naver.com" style="text-decoration: underline;">Bann5091@naver.com</a>
+                                        </div>
                                     </div>
-    
-                                    <div class="icons-just-text">
-                                        <a href="mailto:bann5091@naver.com" style="text-decoration: underline;">Bann5091@naver.com</a>
-                                    </div>
+                                    
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
+                    
 
                     
                 </div>
